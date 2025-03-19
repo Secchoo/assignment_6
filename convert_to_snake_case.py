@@ -3,7 +3,7 @@ def convert_to_snake_case():
     full_name = input("Enter your name: ")
     words = full_name.split() #split full name into words
     snake_case = '_'.join(word.lower() for word in words) #join words with underscore
-    print(snake_case)
+    print(snake_case) #print snake case
 
 
 #call the function
