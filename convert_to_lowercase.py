@@ -1,6 +1,7 @@
-def convert_to_lowercase(text):
+def convert_to_lowercase():
+    #convert full name to lowercase
     full_name = input("Enter your full name: ")
-    return text.lower()
+    print(full_name.lower())
 
 
 if __name__ == '__main__':
