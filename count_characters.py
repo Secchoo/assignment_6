@@ -4,6 +4,7 @@ def count_characters():
     print(f"number of characters in {full_name} is {len(full_name)}") #count the number of characters in the string
 
 
+
 #call the function
 if __name__ == '__main__':
     count_characters()
