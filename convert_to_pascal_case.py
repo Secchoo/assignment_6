@@ -3,7 +3,7 @@ def convert_to_pascal_case():
     full_name = input("Enter your full name: ")
     words = full_name.split()
     pascal_case = ''.join(word.capitalize() for word in words)
-    print(pascal_case.title())
+    print(pascal_case)
 
 
 if __name__ == '__main__':
